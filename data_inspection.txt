@@ -1,0 +1,29 @@
+CARE TRANSITION ANALYTICS
+========================================
+
+Dataset: HHS_Unaccompanied_Alien_Children_Program copy 2.csv
+Rows: 1170
+Columns: 6
+
+Column names:
+['Date', 'Children apprehended and placed in CBP custody*', 'Children in CBP custody', 'Children transferred out of CBP custody', 'Children in HHS Care', 'Children discharged from HHS Care']
+
+Missing values:
+Date                                               450
+Children apprehended and placed in CBP custody*    450
+Children in CBP custody                            450
+Children transferred out of CBP custody            450
+Children in HHS Care                               450
+Children discharged from HHS Care                  450
+
+Duplicate rows:
+449
+
+Statistical summary:
+                                                 count unique                top freq        mean         std  min    25%    50%     75%    max
+Date                                               720    720  December 21, 2025    1         NaN         NaN  NaN    NaN    NaN     NaN    NaN
+Children apprehended and placed in CBP custody*  720.0    NaN                NaN  NaN   93.523611   72.646625  0.0   12.0   99.0  147.25  333.0
+Children in CBP custody                          720.0    NaN                NaN  NaN  171.494444  126.354965  7.0   36.0  193.0  263.25  531.0
+Children transferred out of CBP custody          720.0    NaN                NaN  NaN  128.668056   97.322012  0.0   14.0  157.0  199.25  440.0
+Children in HHS Care                               720    642              2,340    3         NaN         NaN  NaN    NaN    NaN     NaN    NaN
+Children discharged from HHS Care                720.0    NaN                NaN  NaN  173.406944  125.702841  0.0  19.75  181.0   267.0  505.0
